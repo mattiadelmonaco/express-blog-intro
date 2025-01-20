@@ -7,7 +7,7 @@ const port = 3000
 app.use(express.static("public"))
 
 app.get('/', (req, res) => {
-  res.send('Server del mio blog')
+  res.send('<h1 style="text-align: center; color:rgb(81, 159, 237)">Server del mio blog</h1>')
 })
 
 app.get("/bacheca", (req, res) => {
